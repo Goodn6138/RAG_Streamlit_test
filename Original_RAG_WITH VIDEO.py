@@ -9,3 +9,5 @@ import speech_recognition as sr
 import tempfile
 import os
 
+os.environ["COHERE_API_KEY"] = "API_KEY"
+
