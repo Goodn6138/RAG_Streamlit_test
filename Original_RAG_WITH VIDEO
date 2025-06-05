@@ -1,0 +1,11 @@
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.embeddings import CohereEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain.document_loaders import WebBaseLoader
+from langchain.document_loaders import PyPDFLoader
+from moviepy.editor import VideoFileClip
+from langchain.schema import Document
+import speech_recognition as sr
+import tempfile
+import os
+
